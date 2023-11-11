@@ -1,0 +1,1 @@
+SELECT id,name,no_telpon,email from users WHERE id =3;

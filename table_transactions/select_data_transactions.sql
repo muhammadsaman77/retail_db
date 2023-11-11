@@ -1,0 +1,1 @@
+SELECT id,user_id,datetime_transaction, total_price from transactions;

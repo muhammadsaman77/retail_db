@@ -1,0 +1,1 @@
+SELECT id,transaction_id,item_id, item_qty,subtotal_price from users WHERE id =3;
