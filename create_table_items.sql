@@ -1,0 +1,8 @@
+CREATE TABLE items(
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  category_id INT NOT NULL,
+  name VARCHAR(30) NOT NULL,
+  harga FLOAT NOT NULL DEFAULT(0),
+  stok INT NOT NULL DEFAULT (0),
+  FOREIGN KEY (category_id) REFERENCES categories(id)
+  );
